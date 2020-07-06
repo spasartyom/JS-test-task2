@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Test2</title>
+</head>
+
+<body>
+  <form action="" style="display: block;">
+    <p>На какой цвет сфетофора надо переходить дорогу?</p>
+    <div>
+      <input type="radio" id="red" name="colourOfTrafficLights" value="red">
+      <label for="red">Красный</label>
+
+      <input type="radio" id="green" name="colourOfTrafficLights" value="green">
+      <label for="green">Зеленый</label>
+    </div>
+    <div>
+      <p><b>Если на улице идет дождь, то ты возьмешь с собой?</b></p>
+      <input type="checkbox" id="umbrella" name="itemsForRain" value="umbrella">
+      <label for="umbrella">Зонт</label>
+      <br>
+      <input type="checkbox" id="hoodie" name="itemsForRain" value="hoodie">
+      <label for="hoodie">Кофта с капюшоном</label>
+      <br>
+      <input type="checkbox" id="cloak" name="itemsForRain" value="cloak">
+      <label for="cloak">Плащ</label>
+    </div>
+
+    <input type="submit" value="Отправить" disabled>
+
+  </form>
+  <div style="display: none;" id="result">
+    <h3>Ваши ответы:</h3>
+    <p>Вопрос 1.</p>
+    <p>Вопрос 2.</p>
+  </div>
+  <script src="./index.js"></script>
+</body>
+
+</html>
